@@ -1,8 +1,10 @@
+import about from "../assets/about.jpg";
+
 function About() {
   return (
     <div className="grid min-[550px]:grid-cols-2 w-[95%] m-auto gap-4 mt-20 my-10 md:my-24 md:mt-20 lg:my-28">
       <figure>
-        <img src="src/assets/about.jpg" alt="" className="aspect-square" />
+        <img src={about} alt="" className="aspect-square" />
       </figure>
       <section className=" content-center ps-7">
         <h1 className="text-2xl md:text-4xl lg:text-6xl my-2">

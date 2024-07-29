@@ -1,18 +1,23 @@
+import category_1 from '../assets/categori_1.jpg'
+import category_2 from '../assets/category_2.jpg'
+import category_3 from '../assets/categori_3.jpg'
+import category_4 from '../assets/category_4.jpg'
+
 const categories = [
     {
-        img: "src/assets/categori_1.jpg",
+        img: category_1,
         type: "CLASSIC"
     },
     {
-        img: "src/assets/category_2.jpg",
+        img: category_2,
         type: "MODERN"
     },
     {
-        img: "src/assets/categori_3.jpg",
+        img: category_3,
         type: "MINIMALIST"
     },
     {
-        img: "src/assets/category_4.jpg",
+        img: category_4,
         type: "CONTEMPORARY"
     }
 ]

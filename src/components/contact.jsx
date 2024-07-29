@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div className="grid sm:grid-cols-2 bg-[url('src/assets/contact.jpg')] bg-cover h-96 md:h-[500px] lg:h-[700px] w-full m-auto md:py-14 text-white my-10 mt-16 md:my-14 md:mt-20 lg:mt-32 md:my-18 lg:my-28">
+    <div className="grid sm:grid-cols-2 bg-[url('./assets/contact.jpg')] bg-cover h-96 md:h-[500px] lg:h-[700px] w-full m-auto md:py-14 text-white my-10 mt-16 md:my-14 md:mt-20 lg:mt-32 md:my-18 lg:my-28">
       <section className=" p-5">
         <h1 className="text-3xl md:text-5xl lg:text-7xl text-center font-medium">
           Turning Houses into Homes, One Design at a Time

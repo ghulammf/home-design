@@ -1,3 +1,8 @@
+import gal1 from "../assets/gallery_1.jpg";
+import gal2 from "../assets/gallery_2.jpg";
+import gal3 from "../assets/gallery_3.jpg";
+import gal4 from "../assets/gallery_4.jpg";
+
 function Gallery() {
   return (
     <div
@@ -17,18 +22,14 @@ function Gallery() {
       <section className="grid min-[550px]:grid-cols-3 grid-rows-1 my-4 sm:my-7 md:my-12 lg:my-16 gap-3">
         <div>
           <div>
-            <img
-              src="./assets/gallery_1.jpg"
-              alt=""
-              className="object-cover aspect-[3/4]"
-            />
+            <img src={gal1} alt="" className="object-cover aspect-[3/4]" />
           </div>
         </div>
 
         <div>
           <div>
             <img
-              src="src/assets/gallery_2.jpg"
+              src={gal2}
               alt=""
               className="object-cover aspect-[3/2]"
               style={{}}
@@ -36,7 +37,7 @@ function Gallery() {
           </div>
           <div>
             <img
-              src="src/assets/gallery_3.jpg"
+              src={gal3}
               alt=""
               className="object-cover aspect-[3/2]"
               style={{}}
@@ -47,7 +48,7 @@ function Gallery() {
         <div>
           <div>
             <img
-              src="src/assets/gallery_4.jpg"
+              src={gal4}
               alt=""
               className="object-cover aspect-[3/4]"
               style={{}}
