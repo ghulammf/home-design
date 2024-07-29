@@ -18,7 +18,7 @@ function Gallery() {
         <div>
           <div>
             <img
-              src="src/assets/gallery_1.jpg"
+              src="./assets/gallery_1.jpg"
               alt=""
               className="object-cover aspect-[3/4]"
             />
